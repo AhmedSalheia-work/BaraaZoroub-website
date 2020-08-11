@@ -1,0 +1,368 @@
+.aboutus{
+
+
+  //min-height: 100vh;
+  //min-width: 100%;
+  padding-top: ($header-height + 20);
+
+
+  .about{
+.aboutme{
+  @media (max-width: 767px) {
+    order: -1;
+  }
+
+}
+    p{
+      @media (min-width: 1400.9px) {
+        font-size: 24px;
+      }
+      @media (min-width: 767.9px) and(max-width: 1400px) {
+        font-size: 17px;
+      }
+      @media (max-width: 767px) {
+        font-size: 15px;
+      }
+    }
+
+  }
+  .experience_section{
+    background-color: #1C0551;
+    .vl {
+      border-left: 1px solid  #FF4EF7;;
+      height: 425px;
+      position: absolute;
+      @media (min-width: 767px) and (max-width: 1367px){
+        height: 380px;
+      }
+
+      @media (max-width: 400px){
+        height: 250px;
+      }
+
+
+    }
+
+   .pacman {
+      position: absolute;
+      top: 22%;
+      width: 20px;
+      height: 20px;
+      border-right: 2px solid #FF4EF7;
+      //border-left-s: none;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 0px;
+
+      border-top: 2px solid #FF4EF7;
+     background-color: #1c0551;
+
+
+
+     @if($site-en){ // اذا كان الموقع انجليزي
+       margin-left: -11px;
+     }@else { // اذا كان الموقع عربي
+       margin-left: 0;
+       margin-right: -48px;
+     }
+    }
+    .pacman span.slash {
+      content: "";
+      width: 14px;
+      height: 2px;
+      background: #ff4ef7;
+      position: absolute;
+      top: 11px;
+      left: -1px;
+      transform: rotate(47deg);
+    }
+
+
+
+
+
+    .pacman::after {
+      content: "";
+      width: 8px;
+      height: 2px;
+      background: #ff4ef7;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .pacman::before {
+      content: "";
+      width: 2px;
+      height: 7px;
+      background: #ff4ef7;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      //transform: rotate(27deg);
+    }
+
+    @media (min-width: 676px) and(max-width: 1366px){
+
+      h3{
+        font-size: 18px;
+      }
+      h6{
+        font-size: 15px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+
+      h3{
+        font-size: 28px;
+      }
+      h6{
+        font-size: 18px;
+      }
+    }
+  }
+
+
+
+
+
+  .clients{
+    h2{
+      color: #1C0551;
+    }
+    .logo {
+
+      .ground{
+        background-color: rgba(230,230,230,.4);
+        img{
+          opacity: .8;
+
+
+      .size{
+        max-width: 63% !important;
+      }
+
+
+        }
+
+     filter: grayscale(100%);
+      &:hover{
+
+        filter: grayscale(0);
+        padding-top: 1%;
+        margin-bottom: 1%;
+        transform: scale(.9);
+        transition: all 500ms;
+        //transition: 0.5s;
+
+
+      }} }
+  }
+
+
+  .testimonials_section{
+    background-image: linear-gradient(45deg, #FF4EF7, #9546C6);
+
+    .swiper-container {
+      width: 65%;
+      height: 100%;
+      margin: auto;
+      position: relative;
+      @media (max-width:992px) {
+        width: 100%;
+      }
+    }
+
+    .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+    }
+
+    .swiper-slide img {
+
+      @if($site-en){ // اذا كان الموقع انجليزي
+        border-bottom-left-radius: 40%;
+
+      }@else { // اذا كان الموقع عربي
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 40%;
+
+      }
+
+      height: 235px !important;
+      @media (max-width: 1140px) {
+
+        height: 155px !important;
+
+      }
+      @media (max-width: 767px) {
+        //width: 160px !important;
+        width:100% !important;
+        height: 100px !important;
+        margin: auto;
+        text-align: center !important;
+
+      }
+    }
+
+
+    h6{
+      @media (max-width: 767px) {
+        font-size: 11px;
+        font-weight: bold;
+
+      }
+      @media (max-width: 320px) {
+        font-size: 8px;
+        font-weight: bold;
+       margin-top: 10px;
+
+      }
+    }
+    .text{
+
+p{
+  font-size: 15px;
+  @media (max-width: 992px) {
+    font-size: 13px;
+
+  }
+  @media (max-width: 767px) {
+    font-size: 11.5px;
+  }
+}
+
+      .fa-star{
+        color: #b9bbbe;
+        @media (max-width: 767px) {
+          font-size: 14px;
+
+        }
+        &:hover{
+          color: #FF4EF7;
+        }
+      }
+
+      .checked {
+        color: #FF4EF7;
+      }
+
+
+    }
+    .swiper-pagination {
+
+
+      width: 100%;
+      //text-align: center;
+      height: 10px;
+      margin-top: 3%;
+
+      .swiper-pagination-bullet {
+       //
+        width: 10px;
+        height: 10px;
+
+       border: 1.3px solid #FFFFff;
+
+        z-index: 2;
+
+
+
+        @if($site-en){ // اذا كان الموقع انجليزي
+          border-bottom-left-radius: 6px;
+          margin-left: 16px !important;
+        }@else { // اذا كان الموقع عربي
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 6px;
+          margin-left: 0!important;
+          margin-right: 16px !important;
+        }
+
+        //position: relative;
+        //z-index: 44;
+        //width: 20px;
+        //height: 20px;
+        //border-right: 2px solid #FFFFff;
+        ////border-left-s: none;
+        //border-top-left-radius: 0px;
+        //border-bottom-left-radius: 10px;
+        //border-bottom-right-radius: 0px;
+        //margin-left: -11px;
+        //border-top: 2px solid #FFFFff;
+        ////background-color: #1c0551;
+        //margin-left: 16px !important;
+
+        //&::after {
+        //  content: "";
+        //  width: 8px;
+        //  height: 2px;
+        //  background: #FFFFff;
+        //  position: absolute;
+        //  bottom: 0px;
+        //  right: 0px;
+        //}
+
+        //&::before {
+        //  content: "";
+        //  width: 2px;
+        //  height: 7px;
+        //  background: #FFFFff;
+        //  position: absolute;
+        //  top: 0px;
+        //  left: 0px;
+        //  //transform: rotate(27deg);
+        //}
+
+
+        &-active {
+
+          background-color: #ffffff;
+          transition-duration: 300ms;
+        }
+
+
+      }}
+
+
+
+
+  }
+
+
+  header .header-top{
+    background-color: #FFFFff;
+    box-shadow:  .5px .5px .5px #eeeeee;
+    height: 80px !important;
+
+    .logo {
+      position: absolute;
+
+      z-index: 40;
+      filter: initial;
+
+
+    }
+.toggle-menu{
+  top: 15px;
+}
+    .toggle-menu i {
+     background-image: linear-gradient(90deg, #FF4EF7, #9546C6);
+
+
+   }
+
+    .open-menu  i:nth-child(2) {
+      background: transparent !important;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+

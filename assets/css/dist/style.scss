@@ -1,0 +1,48 @@
+@import "template/layouts/variables";
+@import "all";
+body {
+  scroll-behavior: smooth;
+  //background: #eee;
+  font-family: Roboto;
+  //Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color:#000000;
+  background-color:   #FFFFFF;
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+  @if($site-en){ // اذا كان الموقع انجليزي
+    direction: ltr;
+    text-align: left;
+  }@else { // اذا كان الموقع عربي
+    direction: rtl;
+    text-align: right;
+  }
+
+
+
+}
+
+
+
+
+
+
+@import "template/layouts/header";
+@import "template/layouts/home";
+@import "template/layouts/aboutus";
+@import "template/layouts/products";
+
+
+
+
+@import "template/layouts/footer";
+
+

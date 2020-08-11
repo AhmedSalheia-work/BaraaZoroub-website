@@ -1,0 +1,29 @@
+a{
+  &:hover{
+    text-decoration: none;
+    transition: all 0.25ms ease-in-out;
+    color: #FF4EF7 !important;
+  }
+}
+
+ h1 ,h2{
+  font-size: 40px;
+  font-weight: 400;
+
+  margin: auto;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 50px;
+
+  }
+  @media only screen and (max-width: 992px) {
+    font-size: 29px;
+
+
+  }
+  @media only screen and (max-width: 576px) {
+    font-size: 22px;
+font-weight: bold;
+    line-height: 1.6;
+  }
+}
