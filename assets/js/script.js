@@ -42,6 +42,13 @@ $(document).ready(function () {
     $('#year').text(new Date().getFullYear());
 });
 
+$(document).on( "click" , function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".menu-container").hasClass("open-menu");
+        if (_opened === true && !clickover.hasClass("toggle-menu")) {
+            $(".toggle-menu").click();
+        }
+    });
 
 // fullpage customization
 $('#fullpage').fullpage({
@@ -67,8 +74,8 @@ if($("html").find(".aboutus").length > 0){
     $(function() {
         typed.typed({
             strings: words,
-            typeSpeed: 120,
-            loop: true,
+            typeSpeed: 100,
+            loop: false,
         });
     });
 

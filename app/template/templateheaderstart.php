@@ -10,9 +10,9 @@
     <meta name="twitter:title" property="og:title" content="baraazoroub.com" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.baraazoroub.com" />
-    <meta name="twitter:image" property="og:image" content="https://www.qeema.co/assets/images/logo200.png" />
+    <meta name="twitter:image" property="og:image" content="https://www.baraazoroub.com/assets/images/logo200.png" />
     <meta name="twitter:description" property="og:description" content="<?= $description ?>" />
     <link rel="canonical" href="https://www.baraazoroub.com">
+    
     <link rel="icon" href="<?= IMG ?>baraa_logo1.png" type="image/png" sizes="16x16">
-
     <title><?= $title ?></title>

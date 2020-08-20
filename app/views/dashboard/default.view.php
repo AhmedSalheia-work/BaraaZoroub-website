@@ -18,6 +18,7 @@
                                             <div class=" col-6  col-lg-9">
                                                 <span>'.$project->type.'</span>
                                                 <h1 class="col-5 m-0">'.$project->name.'</h1>
+                                                <h2 class="mt-2m ml-3">'.$project->name2.'</h2>
                                             </div>
                                         </div>
                                     </div>

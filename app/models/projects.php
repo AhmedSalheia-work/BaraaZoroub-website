@@ -26,6 +26,7 @@ class Projects extends AbstractModel
         $projDetails = $projDetails::getByPK($this->id);
 
         $this->name = $projDetails->name;
+        $this->name2 = $projDetails->name2;
         $this->type = $projDetails->type;
         $this->img  = $head_img->img;
         $this->img_details = $head_img;

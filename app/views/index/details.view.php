@@ -43,7 +43,7 @@
                 foreach ($project_imgs as $img){
                     echo '
                         <div class="project mb-3">
-                            <img src="'.UPL.$img->img.'" alt="project_img" class="img-fluid  w-100" title="project" style="max-height :'.(($x == $count)? '3598':'1080').'px !important;">
+                            <img src="'.UPL.$img->img.'" alt="project_img" class="img-fluid  w-100" title="project" style="max-height :1080px !important;">
                         </div>
                     ';
                     $x++;

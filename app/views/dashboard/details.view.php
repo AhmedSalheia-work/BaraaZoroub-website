@@ -25,6 +25,7 @@
                                 <div class="client-text col-6 mb-4 " >
                                     <h6 class="text-uppercase font-weight-bold" ><?= $name ?></h6>
                                     <h5 data-name="name" data-type="text"><?= $project_details->name ?></h5>
+                                    <h5 data-name="name2" data-type="text"><?= $project_details->name2 ?></h5>
                                 </div>
                                 <div class="project-text col-6 mb-4 ">
                                     <h6 class="text-uppercase font-weight-bold" ><?= $type ?></h6>

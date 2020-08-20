@@ -16,7 +16,7 @@ return [
         'css' => [
             'plugin'            => CSS.'plugins.css',
             'fontawesome'       => 'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
-            'google_font'       => 'https://fonts.googleapis.com/css?family=Raleway&display=swap',
+            'google_font'       => 'https://fonts.googleapis.com/css?family=Roboto',
             'swiper'            => CSS . 'swiper.min.css',
             'style'             => CSS . 'style.css',
             'stylel'             => CSS . 'style:lang.css',

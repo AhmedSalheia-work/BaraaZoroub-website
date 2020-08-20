@@ -5,7 +5,7 @@
                 <div class="text-<?= (($_SESSION['dir'] == 'ltr')? 'left':'right'); ?> col-6 p-0">
                     <a href="/">
                         <div class=" logo col-auto pt-2  d-lg-block w-100 h-100" >
-                            <picture><img src="<?= IMG ?>baraa_logo1.png" alt="logo" title="baraa" id="logo"></picture>
+                            <picture><img src="<?= IMG ?>baraa_logo1.png" alt="logo" title="baraa" id="logo" style="height: 94% !important;"></picture>
                         </div></a>
 
                 </div>

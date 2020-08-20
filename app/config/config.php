@@ -23,10 +23,9 @@ defined('DATABASE_PORT_NUMBER')? null : define('DATABASE_PORT_NUMBER',3306);
 defined('DATABASE_CONN_DRIVER')? null : define('DATABASE_CONN_DRIVER',1);
 
 defined('DEFAULT_LANG')? null : define('DEFAULT_LANG','en');
-defined('LANGS')? null : define('LANGS',array('en','ar'));
-defined('LANGS_full')? null : define('LANGS_full',array('en' => 'English' ,'ar' => 'العربية'));
+defined('LANGS')? null : define('LANGS',array('en'));
+defined('LANGS_full')? null : define('LANGS_full',array('en' => 'English'));
 
 defined('DIRS')? null : define('DIRS',array(
-                                                'en'    => 'ltr',
-                                                'ar'    => 'rtl'
+                                                'en'    => 'ltr'
                                             ));

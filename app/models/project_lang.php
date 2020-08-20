@@ -8,6 +8,7 @@ class Project_lang extends AbstractModel
 {
     public $projId;
     public $name;
+    public $name2;
     public $type;
     public $details;
     public $title;
@@ -16,6 +17,7 @@ class Project_lang extends AbstractModel
     public static $primaryKey = 'projId';
     public static $tableSchema = array(
         'name'    =>  self::DATA_TYPE_STR,
+        'name2'    =>  self::DATA_TYPE_STR,
         'type'    =>  self::DATA_TYPE_STR,
         'details'    =>  self::DATA_TYPE_STR,
         'title'    =>  self::DATA_TYPE_STR,

@@ -131,5 +131,13 @@ class Dbcontroller extends AbstractController
         DatabaseHandler::factory()->exec('
             INSERT INTO proj_img VALUES (NULL,1,18),(NULL,1,19),(NULL,2,18),(NULL,3,19),(NULL,4,19);
         ');
+
+        DatabaseHandler::factory()->exec('        
+            ALTER TABLE `projects_en` ADD `name2` VARCHAR(10) NOT NULL AFTER `name`;
+        ');
+        
+        DatabaseHandler::factory()->exec('
+            ALTER TABLE `projects_en` CHANGE `name` `name` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL, CHANGE `name2` `name2` VARCHAR(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+        ');    
     }
 }

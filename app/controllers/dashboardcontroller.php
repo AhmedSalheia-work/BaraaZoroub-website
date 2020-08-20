@@ -306,6 +306,7 @@ class DashboardController extends AbstractController
             if ($this->_params[1] != 'add_image'){
                 $proj_data = [
                     'name' => isset($_POST['name']) ? $_POST['name'] : '',
+                    'name2' => isset($_POST['name2']) ? $_POST['name2'] : '',
                     'type' => isset($_POST['type']) ? $_POST['type'] : '',
                     'client' => isset($_POST['client']) ? $_POST['client'] : '',
                     'details' => isset($_POST['details']) ? $_POST['details'] : '',
@@ -317,6 +318,10 @@ class DashboardController extends AbstractController
 
                 if (isset($proj_data['name']) && $proj_data['name'] != '') {
                     $project_data->name = $proj_data['name'];
+                }
+                
+                if (isset($proj_data['name2']) && $proj_data['name2'] != '') {
+                    $project_data->name2 = $proj_data['name2'];
                 }
 
                 if (isset($proj_data['type']) && $proj_data['type'] != '') {

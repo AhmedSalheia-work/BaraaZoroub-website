@@ -14,7 +14,7 @@
                                         <input type="file" name="image[<?= $about_imgs[0]->id ?>]" id="" style="display: none;">
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[0]->img->img ?>" data-width="1536" data-height="2304">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[0]->img->img ?>" alt="<?= $about_imgs[0]->title ?>" title="<?= $about_imgs[0]->title ?>" style="height: 157px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[0]->img->img ?>" alt="<?= $about_imgs[0]->title ?>" title="<?= $about_imgs[0]->title ?>" style="height:216.89px !important;">
                                     </a>
                                 </figure>
                                 <figure>
@@ -25,7 +25,7 @@
                                         <input type="file" name="image[<?= $about_imgs[1]->id ?>]" id="" style="display: none;">
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[1]->img->img ?>" data-width="1279" data-height="853">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[1]->img->img ?>" alt="<?= $about_imgs[1]->title ?>" title="<?= $about_imgs[1]->title ?>" style="height: 280.58px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[1]->img->img ?>" alt="<?= $about_imgs[1]->title ?>" title="<?= $about_imgs[1]->title ?>" style="height:386.09px !important;">
                                     </a>
                                 </figure>
 
@@ -40,7 +40,7 @@
                                         <input type="file" name="image[<?= $about_imgs[2]->id ?>]" id="" style="display: none;">
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[2]->img->img ?>" data-width="1279" data-height="719">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[2]->img->img ?>" alt="<?= $about_imgs[2]->title ?>" title="<?= $about_imgs[2]->title ?>" style="height:140px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[2]->img->img ?>" alt="<?= $about_imgs[2]->title ?>" title="<?= $about_imgs[2]->title ?>" style="height:193.84px !important;">
                                     </a>
 
                                 </figure>
@@ -53,7 +53,7 @@
                                         <input type="file" name="image[<?= $about_imgs[3]->id ?>]" id="" style="display: none;">
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[3]->img->img ?>" data-width="1279" data-height="853">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[3]->img->img ?>" alt="<?= $about_imgs[3]->title ?>" title="<?= $about_imgs[3]->title ?>" style="height: 140.64px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[3]->img->img ?>" alt="<?= $about_imgs[3]->title ?>" title="<?= $about_imgs[3]->title ?>" style="height:193.84px !important;">
                                     </a>
 
                                 </figure>
@@ -67,7 +67,7 @@
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[4]->img->img ?>"
                                        data-width="1020" data-height="858">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[4]->img->img ?>" alt="<?= $about_imgs[4]->title ?>" title="<?= $about_imgs[4]->title ?>" style="height: 140.64px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[4]->img->img ?>" alt="<?= $about_imgs[4]->title ?>" title="<?= $about_imgs[4]->title ?>" style="height: 193.84px !important;">
                                     </a>
 
                                 </figure>
@@ -84,7 +84,7 @@
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[5]->img->img ?>"
                                        data-width="1279" data-height="870">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[5]->img->img ?>" alt="<?= $about_imgs[5]->title ?>" title="<?= $about_imgs[5]->title ?>" style="height: 216.77px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[5]->img->img ?>" alt="<?= $about_imgs[5]->title ?>" title="<?= $about_imgs[5]->title ?>" style="height: 298.34px !important;">
                                     </a>
 
                                 </figure>
@@ -98,7 +98,7 @@
                                     </div>
                                     <a class="d-block mb-4" data-fancybox="images" href="<?= UPL.$about_imgs[6]->img->img ?>"
                                        data-width="1519" data-height="2279">
-                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[6]->img->img ?>" alt="<?= $about_imgs[6]->title ?>" title="<?= $about_imgs[6]->title ?>" style="height: 216.77px !important;">
+                                        <img class="img-fluid w-100" src="<?= UPL.$about_imgs[6]->img->img ?>" alt="<?= $about_imgs[6]->title ?>" title="<?= $about_imgs[6]->title ?>" style="height: 298.34px !important;">
                                     </a>
 
                                 </figure>
@@ -271,7 +271,7 @@
                                         </span>
                                     </div>
                                     
-                                <img src="'.IMG.$client->img->img.'" class="img-fluid size" alt="'.$client->title.'" title="'.$client->title.'" style="width: 150px">
+                                <img src="'.IMG.$client->img->img.'" class="img-fluid size" alt="'.$client->title.'" title="'.$client->title.'" style="width: 150px" >
                             </div>
                         </div>';
 

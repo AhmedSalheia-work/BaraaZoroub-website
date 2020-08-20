@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            *{
+                will-change: all;
+            }
+            @keyframes move1 {
+                0%{left:-100%}
+                100%{left:100%}
+            }
+            @keyframes move2 {
+                0%{top:-100%}
+                100%{top:100%}
+            }
+            @keyframes move3 {
+                0%{left:100%}
+                100%{left:20%}
+            }
+            @keyframes move4 {
+                0%{top:100%;left: 80%;}
+                100%{top:20%;left: 0%;}
+            }
+            @keyframes move5 {
+                0%{top:19%}
+                100%{top:0}
+            }
+
+            @keyframes changeText {
+                0%{border:0px solid #fff;}
+                100%{border:2px solid #6f42c1;}
+            }
+            @keyframes changeText1 {
+                0%{background:#fff;}
+                100%{background:#6f42c1;}
+            }
+
+            body{scroll-behavior:smooth;font-family:Roboto;font-size:14px;margin:0;padding:0;position:relative;color:#000000;background-color:#FFFFFF;direction:ltr;text-align:left}
+            .loader{
+                margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background:#FFFFFF;font-family:Roboto;
+            }
+            .loader_p{
+                position: relative; display: flex; padding: 5px 5px; color:#6f42c1; text-transform: uppercase;letter-spacing: 4px;text-decoration: none;overflow: hidden;
+                animation: changeText 0.5s;
+                animation-delay: 3s;
+                animation-fill-mode: forwards;
+                width: 10vw;
+                height: 10vw;
+                clip-path: polygon(0 0%, 100% 0, 100% 100%, 76% 100%, 0 20%);
+                justify-content: flex-end;
+            }
+
+            .loader_p span{
+                position: absolute;
+                display: block;
+            }
+
+            .loader_p span:nth-child(1){
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(90deg, transparent, #6f42c1);
+
+                animation: move1 1s;
+            }
+            .loader_p span:nth-child(2){
+                top: -100%;
+                left: calc(100% - 2px);
+                width: 2px;
+                height: 100%;
+                background: linear-gradient(180deg, transparent, #6f42c1);
+
+                animation: move2 1s;
+                animation-delay: 0.5s;
+            }
+
+            .loader_p span:nth-child(3){
+                top: calc(100% - 2px);
+                left: 100%;
+                width: 20%;
+                height: 2px;
+                background: linear-gradient(270deg, transparent, #6f42c1);
+
+                animation: move3 1s;
+                animation-delay: 1s;
+            }
+
+            .loader_p span:nth-child(4){
+                top: 100%;
+                left: 80%;
+                width: 30%;
+                height: 2px;
+                background: linear-gradient(270deg, transparent, #6f42c1);
+                transform: rotate(37deg);
+                transform-origin: bottom left;
+
+                animation: move4 1s;
+                animation-delay: 1.5s;
+            }
+
+            .loader_p span:nth-child(5){
+                top: 40%;
+                left: 0;
+                width: 2px;
+                height: 40%;
+                background: linear-gradient(270deg, transparent, #6f42c1);
+
+                animation: move5 1s;
+                animation-delay: 2.3s;
+            }
+
+            .loader_p2{
+                position: absolute;
+                z-index: 99;
+                top: 56vh;
+                left: 32vw;
+                font-size: 2vw;
+                letter-spacing: 4px;
+                color: #6f42c1;
+            }
+            
+            .loader_span{
+                    top: 17.5%;
+                    left: -2%;
+                    width: 113%;
+                    height: 2px;
+                    transform: rotate(46.5deg);
+                    transform-origin: bottom left;
+                    background: inherit;
+                    animation: changeText1 0.5s;
+                    animation-delay: 3s;
+                    animation-fill-mode: forwards;
+            }
+
+        </style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    </head>
+    <body>
+        <div class="loader">
+            <p class="loader_p">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="loader_span"></span>
+            </p>
+        </div>
+    </body>
+</html>
