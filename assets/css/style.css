@@ -166,6 +166,23 @@ span.swiper-pagination-bullet:focus {
     font-weight: 500 !important;
 }
 
+.sk-plane{width:var(--sk-size);height:var(--sk-size);background-color:var(--sk-color);animation:sk-plane 2.4s infinite ease-in-out}@keyframes sk-plane{0%{transform:perspective(120px) rotateX(0) rotateY(0)}25%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0)}50%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}75%{transform:perspective(120px) rotateX(0deg) rotateY(-179.9deg)}100%{transform:perspective(120px) rotateX(0) rotateY(0)}}
+.sk-background{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--sk-bg-color);
+    top: 0; left: 0;
+    width: 100VW;
+    height: 100vh;
+    z-index:9999;
+}
+
+.sk-plane{
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 76% 100%, 0 20%);
+}
+
 .login form div input
 {
     border-top: 0;
