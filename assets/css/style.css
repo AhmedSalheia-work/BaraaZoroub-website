@@ -165,3 +165,52 @@ span.swiper-pagination-bullet:focus {
 .aboutus h2{
     font-weight: 500 !important;
 }
+
+.login form div input
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #6c757d30; /*#1C0551*/
+    transition: all 0.7s ease-in-out;
+}
+
+.login form div input:focus
+{
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid #1C0551;
+    color:#1C0551;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.login form div label
+{
+    height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    transition: all 0.7s ease-in-out;
+    font-weight: 600;
+    color: #6c757d30;
+}
+
+.login form div label.focused
+{
+    top: 0;
+    font-size: 20px;
+    color: var(--primary);
+    font-weight: normal;
+}
+
+.login form input[type="submit"]
+{
+    border-radius: 10px;
+    background: #1C0551;
+    font-size: 25px;
+    font-weight: 600;
+    min-height: 8vh;
+}

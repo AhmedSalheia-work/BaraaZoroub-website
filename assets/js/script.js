@@ -35,7 +35,22 @@ $(document).ready(function () {
 
 
 
+    $(document).ready(function() {
+        $('.login form div input').focus(function (){
+            $('.login form div label[for="'+this.type+'"]').addClass('focused');
+        });
 
+        $('.login form div input').blur(function (){
+            if (this.value == ''){
+                $('.login form div label[for="'+this.type+'"]').removeClass('focused');
+
+                $(this).removeAttr('style');
+            }else{
+                $(this).css('box-shadow','0 0 0 0').css('border-bottom','2px solid #1C0551')
+                        .css('color','#1C0551').css('font-size','25px').css('font-weight','600');
+            }
+        });
+    });
 
 
     // Get the current year for the copyright

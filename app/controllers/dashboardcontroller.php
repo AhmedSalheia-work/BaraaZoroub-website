@@ -500,7 +500,7 @@ class DashboardController extends AbstractController
             $this->_data['social'] = Social_links::getAll();
             $this->_data['page'] = 'about';
 
-            $this->_view('header,wraperstart');
+            $this->_view('header,wraperstart,footer');
         }
     }
 
