@@ -40,12 +40,21 @@ class AbstractController
     }
 
     public function notFoundAction(){
+        $this->_lang->load('notfound.notfound');
         $this->_view();
     }
 
     protected function _view($block='',$another=''){
         if ($this->_action == FrontController::NOT_FOUND_ACTION){
-            require_once VIEWS_PATH . 'notfound' . DS . 'notfound.view.php';
+
+            $view = VIEWS_PATH . 'notfound' . DS . 'notfound.view.php';
+
+            $this->_data = array_merge($this->_data, $this->_lang->get());
+            $this->_template->setActionViewFile($view);
+            $this->_template->setAppData($this->_data);
+
+            $this->_template->renderApp('header,wraperstart,footer,loader');
+
         }else{
             $view = VIEWS_PATH . $this->_controller . DS . $this->_action. '.view.php';
             if (file_exists($view)){
@@ -56,7 +65,15 @@ class AbstractController
 
                 $this->_template->renderApp($block,$another);
             }else{
-                require_once VIEWS_PATH . 'notfound' . DS . 'noview.view.php';
+
+                $view = VIEWS_PATH . 'notfound' . DS . 'noview.view.php';
+
+                $this->_data = array_merge($this->_data, $this->_lang->get());
+                $this->_template->setActionViewFile($view);
+                $this->_template->setAppData($this->_data);
+    
+                $this->_template->renderApp('header,wraperstart,footer,loader');
+                
             }
         }
 
