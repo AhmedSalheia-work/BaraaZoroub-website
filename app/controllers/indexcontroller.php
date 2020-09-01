@@ -76,4 +76,19 @@ class IndexController extends AbstractController
 
         $this->_view('header,wraperstart');
     }
+
+
+    public function downloadAction()
+    {
+        $ini = parse_ini_file('./app/ini/cv.ini');
+
+        if(isset($this->_params[0]) && strtolower($this->_params[0]) == 'cv'){
+            $file = '.'.UPL.$ini['file'];
+
+            header('Content-Type: '. \mime_content_type($file));
+            header("Content-Transfer-Encoding: Binary");
+            header("Content-disposition: attachment; filename=\"" . basename($file) . "\"");
+            readfile($file);
+        }
+    }
 }

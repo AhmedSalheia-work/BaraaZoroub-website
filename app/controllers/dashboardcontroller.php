@@ -380,6 +380,11 @@ class DashboardController extends AbstractController
     }
 
     public function editimgAction(){
+        if (!isset($_SESSION['admin']))
+        {
+            $this->redirect('/dashboard/login');
+        }
+
         @$img_type = $this->_params[0];
         @$img_id = $this->_params[1];
         @$proj_id = $this->_params[2];
@@ -439,6 +444,11 @@ class DashboardController extends AbstractController
     }
 
     public function deleteimgAction(){
+        if (!isset($_SESSION['admin']))
+        {
+            $this->redirect('/dashboard/login');
+        }
+
         @$proj_id = $this->_params[2];
         @$img_id = $this->_params[1];
         @$img_type = $this->_params[0];
@@ -507,5 +517,40 @@ class DashboardController extends AbstractController
     public function logoutAction(){
         unset($_SESSION['admin']);
         $this->redirect('/dashboard/login');
+    }
+
+
+    public function uploadAction()
+    {
+        if (!isset($_SESSION['admin']))
+        {
+            $this->redirect('/dashboard/login');
+        }
+
+        if(isset($this->_params[0]) && strtolower($this->_params[0]) == 'cv'){
+            $cv = $_FILES['cv'];
+            $ini = parse_ini_file('./app/ini/cv.ini');
+
+            if(mime_content_type($cv['tmp_name']) == 'text/plain' || mime_content_type($cv['tmp_name']) == 'application/pdf' || mime_content_type($cv['tmp_name']) == 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' || mime_content_type($cv['tmp_name']) == 'application/msword')
+            {
+                if(move_uploaded_file($cv['tmp_name'], '.'.UPL.$cv['name']))
+                {
+                    unlink('.'.UPL.$ini['file']);
+                    $fp = fopen('./app/ini/cv.ini','w+');
+                    fwrite($fp,'file="'.$cv['name'].'"');
+                    fclose($fp);
+
+                    $_SESSION['dash_msg'] == 'File Uploaded Successfully';
+                    $this->redirect($_SERVER['HTTP_REFERER']);
+
+                }else{
+                    $_SESSION['dash_msg'] == 'Could Not Upload The File';
+                    $this->redirect($_SERVER['HTTP_REFERER']);
+                }
+            }
+        }else{
+            $_SESSION['dash_msg'] == 'Sorry Wrong Upload Path';
+            $this->redirect($_SERVER['HTTP_REFERER']);
+        }
     }
 }

@@ -1,3 +1,7 @@
+function load(){
+    let loader = document.querySelector('#loader');
+    loader.parentNode.removeChild(loader);
+}
 $(document).ready(function () {
 
     new WOW().init();
@@ -198,4 +202,13 @@ function star(num,n){
             stars[i].classList.add($class);
         }
     }
+}
+
+function cv()
+{
+    $('a.cv-text').next('input[type="file"]').click();
+
+    $('a.cv-text').next('input[type="file"]').on('change',function() {
+        this.parentNode.submit();
+    });
 }

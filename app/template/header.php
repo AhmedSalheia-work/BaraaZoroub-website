@@ -1,6 +1,6 @@
 <header>
     <div class="header-top ">
-        <div class=" container  h-100">
+        <div class=" container h-100">
             <div class="row  ">
                 <div class="text-<?= (($_SESSION['dir'] == 'ltr')? 'left':'right'); ?> col-6 p-0">
                     <a href="/">
@@ -10,7 +10,17 @@
 
                 </div>
 
-                <div class=" col-6 p-0  text-<?= (($_SESSION['dir'] == 'ltr')? 'right':'left'); ?> menu-container ">
+                <div class=" col-6 p-0  text-<?= (($_SESSION['dir'] == 'ltr')? 'right':'left'); ?> menu-container " style="justify-content: flex-end;display: flex;">
+
+                <?= isset($_SESSION['admin'])&& explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp\htdocs\BaraaZoroub-website\app\config\..\views\\','/home/progwlfo/try.baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $_SESSION['admin'] == 'admin' ? '
+                    <form action="/dashboard/upload/cv" method="post" enctype="multipart/form-data" class="text-'.(($_SESSION['dir'] == 'ltr')? 'right':'left').'">
+                        <a class="btn btn-outline-primary btn-link px-5 py-2 m-3 text-primary cv-text" href="#" onclick="return cv()">CV</a>
+                        <input type="file" name="cv" accept=".doc,.docx,.pdf,.txt" hidden />
+                    </form>
+                '
+                :'
+                    <a class="btn btn-outline-primary btn-link px-5 py-2 m-3 text-primary cv-text" href="/index/download/cv">CV</a>
+                ' ?>
 
                     <a class="text-<?= (($_SESSION['dir'] == 'ltr')? 'right':'left'); ?> toggle-menu " style="cursor: pointer;" id="hamp">
                         <i></i>

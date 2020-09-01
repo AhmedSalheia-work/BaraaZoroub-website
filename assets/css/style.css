@@ -6,7 +6,7 @@ header .link1 ul{display:flex;justify-content:center;flex-direction:column;align
     border-radius:0 !important;
     position:absolute;z-index:1;
     border:0;top:50%;transform:translateY(-50%);
-    margin-left:1rem!important; !important;left:50%}
+    margin-left:1rem!important;left:50%}
 @media (max-width: 575.98px){
     #fp-nav ul li a span,.fp-slidesNav ul li a span{
         width:20px !important;

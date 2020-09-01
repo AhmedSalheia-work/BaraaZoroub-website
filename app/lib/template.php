@@ -124,8 +124,7 @@ class Template
 
             if (!empty($js)){
                 foreach ($js as $jsKey => $file){
-                    
-                    if (isset($_SESSION['admin']) && explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp\htdocs\baraa.dev\app\config\..\views\\','/home/progwlfo/try.baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $jsKey == 'script'){
+                    if (isset($_SESSION['admin']) && explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp\htdocs\BaraaZoroub-website\app\config\..\views\\','/home/progwlfo/try.baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $jsKey == 'script'){
                             $output .= "\n<script src='".JS."admin_script.js'></script>";
                     }else{
                         $output .= "\n<script src='$file'></script>";

@@ -1,8 +1,8 @@
 <section class="about mb-4">
         <div class="container">
             <div class="row d-flex justify-content-center  align-items-center  ">
-       
-                <div class=" photo col-12  col-md-6 wow headShake  animated  jello delay-2ms " " data-wow-delay="300ms" >
+
+                <div class=" photo col-12  col-md-6 wow headShake  animated  jello delay-2ms " data-wow-delay="300ms" >
                     <div class="row mb-4 pt-2 pb-2 p<?= ($_SESSION['dir'] == 'ltr')? 'r':'l' ?>-2">
                         <div class="col-6 col-lg-4 ">
                             <figure>
