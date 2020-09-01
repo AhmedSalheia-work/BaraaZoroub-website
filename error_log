@@ -189,3 +189,75 @@
 [20-Aug-2020 17:01:26 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
 [20-Aug-2020 17:01:26 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
 [20-Aug-2020 17:01:26 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 04:37:02 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:37:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:37:36 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:37:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:37:50 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:37:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:40:32 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:40:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:40:39 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:40:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:40:41 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:40:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 04:40:43 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 04:40:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 05:53:40 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 05:53:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/dashboardcontroller.php(510): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\DashboardController->loginAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 05:57:09 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/progwlfo/try.baraazoroub.com/app/lib/database/pdodatabasehandler.php on line 15
+[01-Sep-2020 05:57:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php:84
+Stack trace:
+#0 /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php(18): BARAA\Models\AbstractModel::getAll()
+#1 /home/progwlfo/try.baraazoroub.com/app/lib/frontcontroller.php(61): BARAA\Controllers\IndexController->defaultAction()
+#2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
+#3 {main}
+  thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
