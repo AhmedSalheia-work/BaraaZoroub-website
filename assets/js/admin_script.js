@@ -25,6 +25,22 @@ $(document).ready(function () {
 
 
     });
+    
+    new Swiper('.aboutus  .photo .swiper-container', {
+        slidesPerView: 'auto',
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+        },
+
+    });
+
+
 
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());

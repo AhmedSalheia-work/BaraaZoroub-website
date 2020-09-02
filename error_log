@@ -261,3 +261,448 @@ Stack trace:
 #2 /home/progwlfo/try.baraazoroub.com/index.php(27): BARAA\LIB\FrontController->dispatch()
 #3 {main}
   thrown in /home/progwlfo/try.baraazoroub.com/app/models/abstractmodel.php on line 84
+[01-Sep-2020 07:42:06 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 07:42:06 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 07:45:52 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 07:45:52 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 07:46:14 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 07:46:14 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 07:50:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 07:50:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 10:20:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 10:20:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 14:33:31 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 14:33:31 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 16:10:03 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 16:10:03 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 16:10:31 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 16:10:31 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:21:21 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:21:21 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:21:21 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:21:21 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:21:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:21:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:21:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:21:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:08 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:09 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:09 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 17:22:09 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 17:22:09 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/about.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 46
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/experience.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 47
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 91
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: time9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: expe9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: with9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test1.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test2.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test3.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/MrklLw.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/rJufGs.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:39:40 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 18:40:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 18:40:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 18:40:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 18:40:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 18:40:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 18:40:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/about.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 46
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/experience.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 47
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 91
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: time9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: expe9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: with9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test1.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test2.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test3.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/MrklLw.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/rJufGs.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:41:34 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[01-Sep-2020 19:42:38 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 19:42:38 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 19:42:39 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 19:42:39 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[01-Sep-2020 19:42:39 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[01-Sep-2020 19:42:39 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 07:57:55 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/about.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 46
+[02-Sep-2020 07:57:55 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/experience.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/controllers/indexcontroller.php on line 47
+[02-Sep-2020 07:57:55 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 91
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with1 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with2 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 108
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 109
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with3 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 110
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with4 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with5 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 141
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 142
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with6 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 143
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with7 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with8 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: time9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 174
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: expe9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 175
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: with9 in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 176
+[02-Sep-2020 07:57:55 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test1.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:55 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:55 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test2.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/test3.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/MrklLw.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  parse_ini_file(./app/languages//ini/rJufGs.ini): failed to open stream: No such file or directory in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Warning:  extract() expects parameter 1 to be array, boolean given in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 231
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: img in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 237
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: from in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 239
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: details in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 246
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 07:57:56 America/New_York] PHP Notice:  Undefined variable: stars in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 249
+[02-Sep-2020 08:12:33 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:12:33 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:15 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:15 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:28 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:29 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:29 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:29 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:29 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:35 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:35 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:36 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:36 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:42:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:42:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:43:11 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:44:55 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 16
+[02-Sep-2020 08:44:56 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:44:56 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:04 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/progwlfo/try.baraazoroub.com/app/views/index/about.view.php on line 16
+[02-Sep-2020 08:45:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:17 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:17 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:17 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:17 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:18 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:19 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:45:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:45:22 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:04 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:16 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:16 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:20 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:32 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:32 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:32 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:32 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:46:33 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:46:33 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:24 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:25 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:25 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:25 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:25 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:49:27 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:12 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:13 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:13 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:37 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
+[02-Sep-2020 08:50:38 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 6
+[02-Sep-2020 08:50:38 America/New_York] PHP Notice:  Undefined variable: description in /home/progwlfo/try.baraazoroub.com/app/template/templateheaderstart.php on line 14
