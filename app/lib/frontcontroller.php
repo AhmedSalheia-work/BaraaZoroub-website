@@ -4,6 +4,8 @@ namespace BARAA\LIB;
 
 class FrontController
 {
+    use Helper;
+    
     const NOT_FOUND_ACTION = 'notFoundAction';
     const NOT_FOUND_CONTROLLER = 'BARAA\Controllers\NotFoundController';
 
@@ -23,6 +25,10 @@ class FrontController
 
     private function _parseUrl()
     {
+        if(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) == NULL){
+            $this->redirect('/');
+        }
+        
         $url = explode('/',trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'), 3);
 
         if (isset($url[0]) && $url[0] != ''){

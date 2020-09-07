@@ -501,14 +501,8 @@ class DashboardController extends AbstractController
                     }
                 }
             }
-
-            $this->_lang->load('dash.header');
-            $this->_lang->load('index.details');
-            $this->_lang->load('dash.details');
-            $this->_lang->load('index.footer');
-
-            $this->_data['social'] = Social_links::getAll();
-            $this->_data['page'] = 'about';
+            
+            $this->_data['title'] = 'Baraa Zoroub - Login Page';
 
             $this->_view('header,wraperstart,footer');
         }

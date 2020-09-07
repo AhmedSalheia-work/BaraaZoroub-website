@@ -19,8 +19,19 @@
   "@context" : "http://schema.org",
   "@type" : "Person",
   "name" : "BaraaZoroub",
- "url" : "https://www.baraazoroub.co",
-//  "sameAs" : [
-//      ]
+ "url" : "https://www.baraazoroub.com",
+ "sameAs" : [
+     <?php
+        $str = '';
+        foreach ($social as $item){
+            if ($item->id == 'facebook' || $item->id == 'twitter' || $item->id == 'instagram' || $item->id == 'linkedin')
+            {
+                $str .= "\"".$item->link."\",\n\t";
+            }
+        }
+        
+        echo trim($str,",\n\t");
+     ?>
+     ]
 }
 </script>

@@ -12,7 +12,7 @@
 
                 <div class=" col-6 p-0  text-<?= (($_SESSION['dir'] == 'ltr')? 'right':'left'); ?> menu-container " style="justify-content: flex-end;display: flex;">
 
-                <?= isset($_SESSION['admin'])&& explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp\htdocs\BaraaZoroub-website\app\config\..\views\\','/home/progwlfo/try.baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $_SESSION['admin'] == 'admin' ? '
+                <?= isset($_SESSION['admin'])&& explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp\htdocs\BaraaZoroub-website\app\config\..\views\\','/home/progwlfo/baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $_SESSION['admin'] == 'admin' ? '
                     <form action="/dashboard/upload/cv" method="post" enctype="multipart/form-data" class="text-'.(($_SESSION['dir'] == 'ltr')? 'right':'left').'">
                         <a class="btn btn-outline-primary btn-link px-5 py-2 m-3 text-primary cv-text" href="#" onclick="return cv()">CV</a>
                         <input type="file" name="cv" accept=".doc,.docx,.pdf,.txt" hidden />
@@ -37,7 +37,8 @@
                                         if (strtolower($header_link[0]) == strtolower($page)){
                                             echo '<li class="active  "> <a href="'.$header_link[1].'" target="_self"  class=" pb-4 font-weight-bold  ">'.$header_link[0].'</a></li>';
                                         }else{
-                                            echo '<li><a href="'.$header_link[1].'" target="_self"  class=" pb-4 font-weight-bold  ">'.$header_link[0].'</a></li>';
+                                            $target = ($header_link[0] == 'Google Analytics')? '_blank':'_self';
+                                            echo '<li><a href="'.$header_link[1].'" target="'.$target.'"  class=" pb-4 font-weight-bold  ">'.$header_link[0].'</a></li>';
                                         }
                                     }
                                 ?>

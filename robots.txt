@@ -1,1 +1,13 @@
-User-agent: *Disallow: Sitemap: https://www.baraazoroub.com/
+User-agent: Googlebot
+Disallow: /dashboard/
+
+User-agent: Bingbot
+Disallow: /dashboard/
+
+User-agent: Baiduspider
+Disallow: /dashboard/
+
+User-agent: YandexBot
+Disallow: /dashboard/
+
+Sitemap: https://www.baraazoroub.com/sitemap.xml
