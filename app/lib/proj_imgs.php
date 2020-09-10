@@ -24,13 +24,32 @@ class Proj_imgs extends \BARAA\Models\AbstractModel
         $prods = self::getByPK($this->prodId);
 
         $prodat = [];
+        $prodats = [];
+        $imgs_arr = [];
+        
         if ($prods != false){
             if (is_array($prods)) {
                 foreach ($prods as $prod) {
                     $imgs = Imgs::getByPK($prod->imgId);
                     $prod->img = $imgs->img;
-                    array_push($prodat, $prod);
+                    array_push($prodats, $prod);
+                    array_push($imgs_arr, $prod->img);
                 }
+                asort($imgs_arr);
+                
+                foreach($imgs_arr as $img){
+                    $x = 0;
+                    foreach($prodats as $prod){
+                        
+                        if($prod->img == $img){
+                            array_splice($prodat,$x,$x);
+                            array_push($prodat,$prod);
+                        }
+                        
+                        $x++;
+                    }
+                }
+
             } else {
                 $imgs = Imgs::getByPK($prods->imgId);
                 $prods->img = $imgs->img;

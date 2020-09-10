@@ -88,41 +88,63 @@ class DashboardController extends AbstractController
             }elseif($_POST['sub'] == 'clients'){
                 foreach (Clients::getAll() as $client){
                     if (isset($_FILES['clients']['tmp_name'][$client->id]) && $_FILES['clients']['tmp_name'][$client->id] != ''){
-                        $file_name = array_reverse(explode('.', $_FILES['clients']['name'][$client->id]));
-                        $name = $this->randText(6).'.'.$file_name[0];
+                        $file_name = $_FILES['clients']['name'][$client->id];
+                        $name = $file_name;
 
-                        if(move_uploaded_file($_FILES['clients']['tmp_name'][$client->id],'.'.IMG.$name)){
-                            $img = new Imgs();
-                            $img->img = $name;
-
-                            if ($img->save()){
-                                $client->imgId = $img->id;
-                                $client->title = $file_name[1];
-
-                                $client->save();
+                        if (!file_exists('.'.IMG.$name)){
+                            if(move_uploaded_file($_FILES['clients']['tmp_name'][$client->id],'.'.IMG.$name)){
+                                $img = new Imgs();
+                                $img->img = $name;
+    
+                                if ($img->save()){
+                                    $client->imgId = $img->id;
+                                    $client->title = $file_name[1];
+    
+                                    $client->save();
+                                }
                             }
-                        }
-                    }else{
-                        continue;
-                    }
-                }
-
-                if (isset($_FILES['add_img'])){
-                    $file_name = array_reverse(explode('.', $_FILES['add_img']['name'][$client->id]));
-                    $name = $this->randText(6).'.'.$file_name[0];
-
-                    if(move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)) {
-                        $img = new Imgs();
-                        $img->img = $name;
-
-                        if ($img->save()) {
-                            $client = new Clients();
+                        }else{
+                            $img = Imgs::getByUnique($name);
 
                             $client->imgId = $img->id;
                             $client->title = $file_name[1];
 
                             $client->save();
                         }
+
+                    }else{
+                        continue;
+                    }
+                }
+
+                if (isset($_FILES['add_img'])){
+                    $file_name = $_FILES['add_img']['name'][$client->id];
+                    $name = $file_name;
+
+                    if(!file_exists('.'.IMG.$name)){
+                        if(move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)) {
+                            $img = new Imgs();
+                            $img->img = $name;
+    
+                            if ($img->save()) {
+                                $client = new Clients();
+    
+                                $client->imgId = $img->id;
+                                $client->title = explode('.',$name)[0];
+    
+                                $client->save();
+                            }
+                        }
+                    }else{
+
+                        $img = Imgs::getByUnique($name);
+
+                        $client = new Clients();
+    
+                        $client->imgId = $img->id;
+                        $client->title = $file_name[1];
+
+                        $client->save();
                     }
                 }
             }elseif($_POST['sub'] == 'testimonials'){
@@ -346,21 +368,38 @@ class DashboardController extends AbstractController
             }elseif($this->_params[1] == 'add_image'){
                 if (!empty($_FILES) && isset($_FILES['add_img']) && is_array($_FILES['add_img'])){
                     for ($i=0;$i<count($_FILES['add_img']['tmp_name']);$i++){
-                        $name = $this->randText('5').'.'.(array_reverse(explode('.',$_FILES['add_img']['name'][$i]))[0]);
-                        if (move_uploaded_file($_FILES['add_img']['tmp_name'][$i],'.'.UPL.$name)){
-                            $img = new Imgs();
-                            $img->img = $name;
+                        
+                        $name = $_FILES['add_img']['name'][$i];
+                        
+                        if (!file_exists('.'.UPL.$name)){
 
-                            if ($img->save()){
-                                $prod_img = new Proj_imgs();
-                                $prod_img->prodId = $id;
-                                $prod_img->imgId  = $img->id;
-
-                                if ($prod_img->save()){
-                                    continue;
+                            if (move_uploaded_file($_FILES['add_img']['tmp_name'][$i],'.'.UPL.$name)){
+                                $img = new Imgs();
+                                $img->img = $name;
+    
+                                if ($img->save()){
+                                    $prod_img = new Proj_imgs();
+                                    $prod_img->prodId = $id;
+                                    $prod_img->imgId  = $img->id;
+    
+                                    if ($prod_img->save()){
+                                        continue;
+                                    }
                                 }
                             }
+
+                        }else{
+                            $img = Imgs::getByUnique($name);
+
+                            $prod_img = new Proj_imgs();
+                            $prod_img->prodId = $id;
+                            $prod_img->imgId  = $img->id;
+
+                            if ($prod_img->save()){
+                                continue;
+                            }
                         }
+
                     }
                 }
                 $this->redirect('/dashboard/details/'.$id);
@@ -396,39 +435,60 @@ class DashboardController extends AbstractController
         if ($img_type == 'head'){
             $project = Projects::getByPK($proj_id);
 
-            if ($_FILES['add_img']['type'] == 'image/png' || $_FILES['add_img']['type'] == 'image/jpeg' || $_FILES['add_img']['type'] == 'image/gif'){
-                $name = $this->randText('6').'.'.(array_reverse(explode('.',$_FILES['add_img']['name'])))[0];
-                var_dump('.'.UPL.$name);
-                if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)){
-                    $img = new Imgs();
-                    $img->img = $name;
-                    if ($img->save()){
-                        $project->head_img = $img->id;
-                        if ($project->save()){
-                            $this->redirect('/dashboard/details/'.$project->id);
+            $name = $_FILES['add_img']['name'];
+
+            if(!file_exists('.'.UPL.$name)){
+                if ($_FILES['add_img']['type'] == 'image/png' || $_FILES['add_img']['type'] == 'image/jpeg' || $_FILES['add_img']['type'] == 'image/gif'){
+                    
+                    if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)){
+                        $img = new Imgs();
+                        $img->img = $name;
+
+                        if ($img->save()){
+                            $project->head_img = $img->id;
+                            if ($project->save()){
+                                $this->redirect('/dashboard/details/'.$project->id);
+                            }
                         }
                     }
+                }else{
+                    goto else_s;
                 }
             }else{
-                goto else_s;
+                $img = Imgs::getByUnique($name);
+
+                $project->head_img = $img->id;
+                if ($project->save()){
+                    $this->redirect('/dashboard/details/'.$project->id);
+                }
             }
         }elseif ($img_type == 'img'){
             $imgs = new Proj_imgs();
             $imgs->prodId = $proj_id;
-            $name = $this->randText('6').'.'.array_reverse(explode('.',$_FILES['add_img']['name']))[0];
+            $name = $_FILES['add_img']['name'];
 
             foreach ($imgs->getByProdId() as $img){
                 if ($img->imgId == $img_id){
-                    if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.UPL.$name)){
-                        $imgs = new Imgs();
-                        $imgs->img = $name;
-
-                        if ($imgs->save()){
-                            $img->imgId = $imgs->id;
-
-                            if ($img->save()){
-                                $this->redirect('/dashboard/details/'.$proj_id);
+                    if(!file_exists('.'.UPL.$name)){
+                        if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.UPL.$name)){
+                            $imgs = new Imgs();
+                            $imgs->img = $name;
+    
+                            if ($imgs->save()){
+                                $img->imgId = $imgs->id;
+    
+                                if ($img->save()){
+                                    $this->redirect('/dashboard/details/'.$proj_id);
+                                }
                             }
+                        }
+                    }else{
+                        $imgs = Imgs::getByUnique($name);
+
+                        $img->imgId = $imgs->id;
+    
+                        if ($img->save()){
+                            $this->redirect('/dashboard/details/'.$proj_id);
                         }
                     }
                 }
@@ -514,8 +574,7 @@ class DashboardController extends AbstractController
     }
 
 
-    public function uploadAction()
-    {
+    public function uploadAction(){
         if (!isset($_SESSION['admin']))
         {
             $this->redirect('/dashboard/login');

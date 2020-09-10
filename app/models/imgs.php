@@ -14,4 +14,6 @@ class Imgs extends AbstractModel
     public static $tableSchema = [
         'img' => self::DATA_TYPE_STR
     ];
+
+    public static $unique = 'img';
 }
