@@ -36,14 +36,16 @@ class Proj_imgs extends \BARAA\Models\AbstractModel
                     array_push($imgs_arr, $prod->img);
                 }
                 asort($imgs_arr);
-                
+
                 foreach($imgs_arr as $img){
                     $x = 0;
+
                     foreach($prodats as $prod){
-                        
+
                         if($prod->img == $img){
-                            array_splice($prodat,$x,$x);
+
                             array_push($prodat,$prod);
+
                         }
                         
                         $x++;
