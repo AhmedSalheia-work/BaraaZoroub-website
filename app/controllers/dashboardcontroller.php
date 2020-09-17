@@ -437,7 +437,7 @@ class DashboardController extends AbstractController
 
             $name = $_FILES['add_img']['name'];
 
-            if(!file_exists('.'.UPL.$name)){
+            if(!file_exists('.'.IMG.$name)){
                 if ($_FILES['add_img']['type'] == 'image/png' || $_FILES['add_img']['type'] == 'image/jpeg' || $_FILES['add_img']['type'] == 'image/gif'){
                     
                     if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)){
