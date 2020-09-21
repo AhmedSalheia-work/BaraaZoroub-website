@@ -139,6 +139,6 @@ class AbstractModel
         }else{
             $result = $stmt->fetchAll(\PDO::FETCH_CLASS,get_called_class());
         }
-        return false;
+        return $result;
     }
 }

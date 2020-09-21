@@ -20,42 +20,21 @@ class Proj_imgs extends \BARAA\Models\AbstractModel
     );
 
     public function getByProdId(){
-        self::$primaryKey = 'prodId';
-        $prods = self::getByPK($this->prodId);
 
+        $prods = new Proj_imgs();
+        $prods = $prods->get('SELECT proj_img.id, proj_img.prodId,proj_img.imgId, imgs.img FROM proj_img INNER JOIN imgs ON proj_img.imgId = imgs.id WHERE proj_img.prodId="'.$this->prodId.'" ORDER BY imgs.img ASC');
+        
         $prodat = [];
-        $prodats = [];
-        $imgs_arr = [];
         
         if ($prods != false){
             if (is_array($prods)) {
+             
                 foreach ($prods as $prod) {
-                    $imgs = Imgs::getByPK($prod->imgId);
-                    $prod->img = $imgs->img;
-                    array_push($prodats, $prod);
-                    array_push($imgs_arr, $prod->img);
-                }
-                asort($imgs_arr);
-
-                foreach($imgs_arr as $img){
-                    $x = 0;
-
-                    foreach($prodats as $prod){
-
-                        if($prod->img == $img){
-
-                            array_push($prodat,$prod);
-
-                        }
-                        
-                        $x++;
-                    }
+                    
+                    array_push($prodat, $prod);
+                    
                 }
 
-            } else {
-                $imgs = Imgs::getByPK($prods->imgId);
-                $prods->img = $imgs->img;
-                array_push($prodat, $prods);
             }
         }
 
