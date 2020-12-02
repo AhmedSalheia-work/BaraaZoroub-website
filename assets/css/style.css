@@ -208,8 +208,13 @@ span.swiper-pagination-bullet:focus {
   width: 40%;
 }
 
+.home .section
+{
+    background-size:100%!important;
+    transition: background 1.5s ease-in-out;
+}
 
-
-
-
-
+.home .section:hover
+{
+    background-size:115%!important;
+}
