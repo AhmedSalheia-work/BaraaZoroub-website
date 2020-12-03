@@ -9,12 +9,15 @@ class Projects extends AbstractModel
     public $id;
     public $client;
     public $head_img;
+    public $for_home="n";
 
     public static $tableName = 'projects';
     public static $primaryKey = 'id';
+    public static $unique = 'for_home';
     public static $tableSchema = array(
         'client'    =>  self::DATA_TYPE_STR,
-        'head_img'  =>  self::DATA_TYPE_INT
+        'head_img'  =>  self::DATA_TYPE_INT,
+	    'for_home'  =>  self::DATA_TYPE_STR
     );
 
     public function forHome(){

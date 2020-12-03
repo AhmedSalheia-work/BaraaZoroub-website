@@ -11,7 +11,7 @@ class LanguageController extends AbstractController
     use Helper;
     public function defaultAction(){
         $_SESSION['lang'] = DEFAULT_LANG;
-        if (isset($this->_params[0]) && $this->_params[0] != '' && array_search($this->_params[0],LANGS)){
+        if (isset($this->_params[0]) && $this->_params[0] !== '' && in_array($this->_params[0], LANGS, true)){
             $_SESSION['lang'] = $this->_params[0];
         }
 

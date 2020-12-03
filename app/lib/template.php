@@ -59,7 +59,7 @@ class Template
                         }
                     }
                     if ($bool){
-                        if ($partKey == ':view'){
+                        if ($partKey === ':view'){
                             require_once $this->_action_view;
                         }else{
                             require_once $file;
@@ -90,7 +90,7 @@ class Template
             if (!empty($css)){
                 foreach ($css as $cssKey => $file){
                     $data = '';
-                    if ($cssKey == 'fontawesome'){
+                    if ($cssKey === 'fontawesome'){
                         $data = 'integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"';
                     }
                     $file = str_replace(':lang','-'.$_SESSION['lang'],$file);
@@ -102,7 +102,7 @@ class Template
             if (!empty($js)){
                 foreach ($js as $jsKey => $file){
                     $async = '';
-                    if($jsKey == 'google'){ $async='async'; }
+                    if($jsKey === 'google'){ $async='async'; }
                     $output .= "\n<script $async src='$file'></script>";
                 }
             }
@@ -123,8 +123,8 @@ class Template
             $js = $this->_template_parts['footer']['js'];
 
             if (!empty($js)){
-                foreach ($js as $jsKey => $file){
-                    if (isset($_SESSION['admin']) && explode(' ',str_replace(['\\','/'],' ',str_replace(array('C:\xampp_new\htdocs\baraa.dev\app\config\..\views\\','/home/progwlfo/baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] == 'dashboard' && $jsKey == 'script'){
+	            foreach ($js as $jsKey => $file){
+                    if (isset($_SESSION['admin']) && explode(' ',str_replace(['\\','/'],' ',str_replace(array('D:\xampp\BaraaZoroub-website\app\config\..\views\\','/home/progwlfo/baraazoroub.com/app/config/../views/'),'',$this->_action_view)))[0] === 'dashboard' && $jsKey === 'script'){
                             $output .= "\n<script src='".JS."admin_script.js'></script>";
                     }else{
                         $output .= "\n<script src='$file'></script>";

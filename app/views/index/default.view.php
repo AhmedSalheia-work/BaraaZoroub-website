@@ -5,14 +5,9 @@
         <?php
         $x = 1;
             foreach ($projects as $project){
-                $class = '';//'animated zoomIn delay-2ms wow pulse';
-                if($x == 1){
-                    $class= 'animated zoomIn delay-2ms';
-                }elseif($x == 2){
-                    $class = 'wow pulse';
-                }
+
                 echo '
-                    <section class="vertical-scrolling active '.$class.'" data-wow-duration="2s" data-wow-delay="50ms">
+                    <section class="vertical-scrolling active">
                         <div class="container">
                             <div class=" section section-1  " style="background-image: url(\''.IMG.$project->img.'\');">
                                 <div class="text ">

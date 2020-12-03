@@ -4,7 +4,7 @@
         <?php
         foreach ($projects as $project){
             echo '
-                    <section class="vertical-scrolling active animated zoomIn delay-2ms   ">
+                    <section class="vertical-scrolling active">
                         <div class="container">
                             <div class=" section section-1  " style="background-image: url(\''.IMG.$project->img.'\');">
                             <div class="update-image">

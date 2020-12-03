@@ -8,7 +8,7 @@
                         </span>
                         <input type="file" name="add_img" id="" style="display: none;" accept=".jpg,.jpeg,.png,.gif">
                     </div>
-                    <div class="text-<?= (($_SESSION['dir'] == 'rtl')? 'left':'right') ?>">
+                    <div class="text-<?= (($_SESSION['dir'] === 'rtl')? 'left':'right') ?>">
                         <button class="our-save-btn text-white" name="sub" id="submit" disabled><?= $Save ?></button>
                     </div>
                 </form>
@@ -56,7 +56,7 @@
 
                         </div>
 
-                        <div class="text-<?= (($_SESSION['dir'] == 'rtl')? 'left':'right') ?>">
+                        <div class="text-<?= (($_SESSION['dir'] === 'rtl')? 'left':'right') ?>">
                             <button class="our-save-btn" name="sub"><?= $Save ?></button>
                         </div>
 
@@ -74,7 +74,7 @@
                         echo '
                             <div class="project mb-3">
                                 <form action="/dashboard/editimg/img/'.$img->imgId.'/'.$project->id.'" method="post" enctype="multipart/form-data">
-                                    <div class="want row align-items-center justify-content-center img-fluid  w-100 m-0" style="background-size: 100% 100%;background-repeat:no-repeat; min-height :'.(($x == $count)? '3598':'1080').'px !important; max-height :'.(($x == $count)? '3598':'1080').'px !important; background: url(\''.UPL.$img->img.'\') 0 0/ 100% 100% no-repeat"  title="project">
+                                    <div class="want row align-items-center justify-content-center img-fluid  w-100 m-0" style="min-height :1080px !important; background: url(\''.UPL.$img->img.'\') 0 0/ 100% 100% no-repeat"  title="project">
                                         <div class="update-image row col-1">
                                                 <span class="edit col-6 bg-hover-info">
                                                     <i class="fa fa-pen"></i>
@@ -87,7 +87,7 @@
                                                 </span>
                                             </a>
                                         </div>
-                                            <div class="text-'.(($_SESSION['dir'] == 'rtl')? 'left':'right').' col-2" id="save'.$x.'" style="display: none">
+                                            <div class="text-'.(($_SESSION['dir'] === 'rtl')? 'left':'right').' col-2" id="save'.$x.'" style="display: none">
                                                 <button class="our-save-btn text-white" name="sub" id="submit">'.$Save.'</button>
                                             </div>
                                     </div>
@@ -107,7 +107,7 @@
                             <input type="file" name="add_img[]" id="" style="display: none;" multiple>
                         </div>
 
-                        <div class="text-<?= (($_SESSION['dir'] == 'rtl')? 'left':'right') ?>">
+                        <div class="text-<?= (($_SESSION['dir'] === 'rtl')? 'left':'right') ?>">
                             <button class="our-save-btn text-white" name="sub"><?= $Save ?></button>
                         </div>
                     </div>

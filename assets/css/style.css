@@ -218,3 +218,147 @@ span.swiper-pagination-bullet:focus {
 {
     background-size:115%!important;
 }
+
+
+.portfolio-page {
+    padding-top: 115px;
+}
+
+.portfolio-page header .header-top .logo {
+    position: absolute;
+    z-index: 40;
+    filter: initial;
+}
+
+.portfolio-page header .header-top .toggle-menu i {
+    background-image: linear-gradient(90deg, #FF4EF7, #9546C6);
+}
+
+.portfolio-page header .header-top {
+    background-color: #FFFFff;
+    box-shadow: 0.5px 0.5px 0.5px #eeeeee;
+    height: 80px !important;
+}
+
+.entry-box-2 {
+    position: relative;
+    overflow: hidden;
+    max-height: 476px;
+}
+
+.entry-box-2 img {
+    max-height: 678px;
+}
+
+.entry-box-2 > a::before {
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 1;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+    background-color: transparent;
+}
+
+.entry-box-2 .entry-body {
+    z-index: 3;
+}
+
+.entry-box-2 h3,
+.entry-box-2 h6
+{
+    position: relative;
+    opacity: 0;
+}
+.entry-box-2 a img
+{
+    transition: all 0.5s ease-in-out;
+}
+.entry-box-2:hover a img
+{
+    transform: scale(1.2);
+}
+
+.entry-box-2:hover > a::before {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgba(28, 5, 81, 0.7);
+    transform: translate(50%, -50%) scale(2);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.entry-body {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.entry-box-2:hover .entry-body h3
+{
+    opacity: 1;
+    transform: rotateZ(360deg) scale(1.2);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.entry-box-2:hover .entry-body h6
+{
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.entry-box-2.box-1 :hover > a::before {
+    width: 100%;
+    height: 100%;
+}
+
+.entry-box-2 {
+    flex: 0 0 33.333333333%;
+    max-width: 33.33333333%;
+}
+
+@media (max-width: 768px) {
+    .entry-body {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        color: #fff;
+        text-align: center;
+    }
+    .entry-box-2{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .entry-box-2:hover > a::before {
+        cursor: pointer;
+    }
+
+    .entry-box-2:hover .entry-body h3,
+    .entry-box-2:hover .entry-body h6
+    {
+        cursor: pointer;
+        font-size: 16px !important;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .entry-box-2:hover .entry-body h3 {
+        font-size: 12px !important;
+        text-align: center;
+    }
+}
+.entry-body.admin {
+    top: 10%;
+    z-index: 45454545;
+}

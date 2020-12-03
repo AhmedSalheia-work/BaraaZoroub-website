@@ -16,6 +16,7 @@ class Project_lang extends AbstractModel
     public static $tableName;
     public static $primaryKey = 'projId';
     public static $tableSchema = array(
+    	'projId'    => self::DATA_TYPE_INT,
         'name'    =>  self::DATA_TYPE_STR,
         'name2'    =>  self::DATA_TYPE_STR,
         'type'    =>  self::DATA_TYPE_STR,

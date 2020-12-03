@@ -2,6 +2,7 @@
 
 namespace BARAA\Controllers;
 
+use BARAA\LIB\Helper;
 use BARAA\LIB\Proj_imgs;
 use BARAA\Models\About_imgs;
 use BARAA\Models\Clients;
@@ -10,20 +11,22 @@ use BARAA\Models\Social_links;
 
 class IndexController extends AbstractController
 {
+	use Helper;
+
     public function defaultAction(){
         $this->_lang->load('index.header');
         $this->_lang->load('index.default');
         $this->_lang->load('index.footer');
 
         $this->_data['social'] = Social_links::getAll();
-        $this->_data['page'] = ($_SESSION['lang'] == 'en')?'home':'الصفحة الرئيسية';
+        $this->_data['page'] = ($_SESSION['lang'] === 'en')?'home':'الصفحة الرئيسية';
 
-        $projects = Projects::getAll();
+        $projects = Projects::getByUnique('y');
         $this->_data['projects'] = [];
 
         foreach ($projects as $project)
         {
-            array_push($this->_data['projects'],$project->forHome());
+            $this->_data['projects'][] = $project->forHome();
         }
 
         $this->_view('wraperstart');
@@ -39,7 +42,7 @@ class IndexController extends AbstractController
         $about_imgat = About_imgs::getAll();
         $about_imgs = [];
         foreach ($about_imgat as $about_img) {
-            array_push($about_imgs,$about_img->getImg());
+            $about_imgs[] = $about_img->getImg();
         }
 
         $this->_data['about_imgs'] = $about_imgs;
@@ -49,19 +52,25 @@ class IndexController extends AbstractController
         $clients = Clients::getAll();
         $this->_data['clients'] = [];
         foreach ($clients as $client){
-            array_push($this->_data['clients'],$client->getImg());
+            $this->_data['clients'][] = $client->getImg();
         }
 
         $this->_data['testimonials'] = parse_ini_file('./app/ini/testimonials.ini');
 
-        $this->_data['page'] = ($_SESSION['lang'] == 'en')?'about':'عني';
+        $this->_data['page'] = ($_SESSION['lang'] === 'en')?'about':'عني';
         $this->_view();
     }
 
     public function detailsAction(){
         @$id = $this->_params[0];
+        $project = Projects::getByPK($id);
 
-        $projects = (Projects::getByPK($id))->forData();
+        if ($project === false)
+        {
+        	$this->redirect('/');
+        }
+
+        $projects = ($project)->forData();
         $this->_data['project'] = $projects;
         $imgs = new Proj_imgs();
         $imgs->prodId = $projects->id;
@@ -82,7 +91,7 @@ class IndexController extends AbstractController
     {
         $ini = parse_ini_file('./app/ini/cv.ini');
 
-        if(isset($this->_params[0]) && strtolower($this->_params[0]) == 'cv'){
+        if(isset($this->_params[0]) && strtolower($this->_params[0]) === 'cv'){
             $file = '.'.UPL.$ini['file'];
 
             header('Content-Type: '. \mime_content_type($file));
@@ -90,5 +99,25 @@ class IndexController extends AbstractController
             header("Content-disposition: attachment; filename=\"" . basename($file) . "\"");
             readfile($file);
         }
+    }
+
+    public function portfolioAction()
+    {
+	    $this->_lang->load('index.header');
+	    $this->_lang->load('index.default');
+	    $this->_lang->load('index.footer');
+
+	    $this->_data['social'] = Social_links::getAll();
+	    $this->_data['page'] = ($_SESSION['lang'] === 'en')?'portfolio':'المعرض';
+
+	    $projects = Projects::getAll();
+	    $this->_data['projects'] = [];
+
+	    foreach ($projects as $project)
+	    {
+		    $this->_data['projects'][] = $project->forHome();
+	    }
+
+	    $this->_view();
     }
 }

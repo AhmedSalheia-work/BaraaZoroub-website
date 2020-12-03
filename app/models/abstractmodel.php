@@ -97,13 +97,13 @@ class AbstractModel
             }else{
                 $results = $stmt->fetchAll(\PDO::FETCH_CLASS,get_called_class());
             }
-            return !empty($results)? ((count($results) == 1)? array_shift($results): $results) : false;
+            return !empty($results)? ((count($results) === 1)? array_shift($results): $results) : false;
         }
         return false;
     }
 
     public static function getByUnique($unique){
-        $sql = 'SELECT * FROM '.static::$tableName. ' WHERE '.static::$unique.' = "'.$unique.'"';
+        $sql = 'SELECT * FROM '.static::$tableName. ' WHERE '.static::$unique.' = "'.$unique.'" ORDER BY '.static::$primaryKey . ' DESC';
         $stmt = DatabaseHandler::factory()->prepare($sql);
         if($stmt->execute() === true){
             if (method_exists(get_called_class(),'__construct')){
@@ -111,7 +111,7 @@ class AbstractModel
             }else{
                 $results = $stmt->fetchAll(\PDO::FETCH_CLASS,get_called_class());
             }
-            return !empty($results)? ((count($results) == 1)? array_shift($results): $results) : false;
+            return !empty($results)? ((count($results) === 1)? array_shift($results): $results) : false;
         }
         return false;
     }

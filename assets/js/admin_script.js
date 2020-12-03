@@ -44,6 +44,43 @@ $(document).ready(function () {
 
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+
+
+    $('.star').on('click',function () {
+
+        let el = $(this);
+
+        if (!el.hasClass('fas'))
+        {
+
+            $.get("/dashboard/changeHome/"+$(this).attr('data-id'), function(data){
+                let bool = !(data.replace(/ .*/,'') === 'Sorry');
+                if (bool)
+                {
+                    el.removeClass('far');
+                    el.addClass('fas');
+                    el.removeClass('text-light');
+                    el.addClass('text-primary');
+                }
+                alert("Data: " + data + "\nStatus: " + ((bool)? 'Success':'Failure'));
+            });
+
+        }else
+        {
+            $.get("/dashboard/changeHome/"+$(this).attr('data-id'), function(data){
+                let bool = !(data.replace(/ .*/,'') === 'Sorry');
+                if (bool){
+                    el.removeClass('fas');
+                    el.addClass('far');
+                    el.removeClass('text-primary');
+                    el.addClass('text-light');
+                }
+                alert("Data: " + data + "\nStatus: " + ((bool)? 'Success':'Failure'));
+            });
+        }
+    });
+
 });
 
 $(document).on( "click" , function (event) {
