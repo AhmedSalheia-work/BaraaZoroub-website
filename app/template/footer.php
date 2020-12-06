@@ -7,7 +7,7 @@
             <div class="col-12  col-md-6  d-flex justify-content-center justify-content-md-end text-white py-3">
                 <span class="px-1"><?= $dev ?></span>
                 <a href="https://prography.co" class="text-white">
-                    Prography
+                    Prography Co.
                 </a>
             </div>
 
