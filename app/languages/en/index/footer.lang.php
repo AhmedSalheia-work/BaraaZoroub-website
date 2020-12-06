@@ -3,4 +3,4 @@
 $_['back'] = 'back';
 
 $_['copy'] = 'Copyright &copy; All rights reserved,Baraa Zoroub  <span id="year"></span>';
-$_['dev']  = 'Development';
+$_['dev']  = 'Developed by';

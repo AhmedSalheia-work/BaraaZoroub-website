@@ -4,9 +4,10 @@
             <div class="col-12 col-md-6 ">
                 <div class="  copy   text-white pt-5 pt-md-2 d-flex justify-content-center justify-content-md-start  "><?= $copy ?></div>
             </div>
-            <div class="col-12  col-md-6  d-flex justify-content-center justify-content-md-end text-white pt-3">
-                <span class="pt-3 p<?= (($_SESSION['dir'] == 'ltr')? 'r':'l'); ?>-2"><?= $dev ?></span>   <a href="https://prography.co" class="text-white">
-                    <img src="<?= IMG ?>Layer%201.png" class="img-fluid h-75 " alt="Prography_logo" title="Prography">
+            <div class="col-12  col-md-6  d-flex justify-content-center justify-content-md-end text-white py-3">
+                <span class="px-1"><?= $dev ?></span>
+                <a href="https://prography.co" class="text-white">
+                    Prography
                 </a>
             </div>
 
