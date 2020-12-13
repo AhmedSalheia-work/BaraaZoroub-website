@@ -623,6 +623,7 @@ class DashboardController extends AbstractController
 
 		$this->_lang->load('dash.header');
 		$this->_lang->load('index.default');
+		$this->_lang->load('dash.default');
 		$this->_lang->load('index.footer');
 
 		$this->_data['social'] = Social_links::getAll();
