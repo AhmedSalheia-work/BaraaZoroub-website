@@ -221,7 +221,7 @@ class DashboardController extends AbstractController
                             $value = $_POST['typed'];
                         }
 
-                        $content .= $key."= '$value' \n";
+                        $content .= $key.'= "'.$value."\" \n";
                     }
 
                     $fp = fopen(INI.'about.ini', 'wb');
@@ -238,7 +238,7 @@ class DashboardController extends AbstractController
                             $value = $_POST['desc'];
                         }
 
-                        $content .= $key."= '$value' \n";
+                        $content .= $key.'= "'.$value."\" \n";
                     }
 
                     $fp = fopen(INI.'about.ini', 'wb');
