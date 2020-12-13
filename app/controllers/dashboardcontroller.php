@@ -34,7 +34,7 @@ class DashboardController extends AbstractController
         $this->_data['social'] = Social_links::getAll();
         $this->_data['page'] = 'home';
 
-        $projects = Projects::getAll();
+        $projects = Projects::getByUnique('y');
         $this->_data['projects'] = [];
 
         foreach ($projects as $project)
@@ -93,11 +93,11 @@ class DashboardController extends AbstractController
                             if(move_uploaded_file($_FILES['clients']['tmp_name'][$client->id],'.'.IMG.$name)){
                                 $img = new Imgs();
                                 $img->img = $name;
-    
+
                                 if ($img->save()){
                                     $client->imgId = $img->id;
                                     $client->title = $file_name[1];
-    
+
                                     $client->save();
                                 }
                             }
@@ -123,13 +123,13 @@ class DashboardController extends AbstractController
                         if(move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)) {
                             $img = new Imgs();
                             $img->img = $name;
-    
+
                             if ($img->save()) {
                                 $client = new Clients();
-    
+
                                 $client->imgId = $img->id;
                                 $client->title = explode('.',$name)[0];
-    
+
                                 $client->save();
                             }
                         }
@@ -138,7 +138,7 @@ class DashboardController extends AbstractController
                         $img = Imgs::getByUnique($name);
 
                         $client = new Clients();
-    
+
                         $client->imgId = $img->id;
                         $client->title = $file_name[1];
 
@@ -320,7 +320,7 @@ class DashboardController extends AbstractController
 	    {
 		    $this->redirect('/dashboard/default');
 	    }
-        
+
         if (isset($_POST['sub'])){
             if (!isset($this->_params[1]) || $this->_params[1] !== 'add_image'){
                 $proj_data = [
@@ -338,7 +338,7 @@ class DashboardController extends AbstractController
                 if (isset($proj_data['name']) && $proj_data['name'] !== '') {
                     $project_data->name = $proj_data['name'];
                 }
-                
+
                 if (isset($proj_data['name2']) && $proj_data['name2'] !== '') {
                     $project_data->name2 = $proj_data['name2'];
                 }
@@ -366,20 +366,20 @@ class DashboardController extends AbstractController
 
                 if (!empty($_FILES) && isset($_FILES['add_img']) && is_array($_FILES['add_img'])){
                     for ($i=0, $iMax = count($_FILES['add_img']['tmp_name']); $i< $iMax; $i++){
-                        
+
                         $name = $_FILES['add_img']['name'][$i];
-                        
+
                         if (!file_exists('.'.UPL.$name)){
 
                             if (move_uploaded_file($_FILES['add_img']['tmp_name'][$i],'.'.UPL.$name)){
                                 $img = new Imgs();
                                 $img->img = $name;
-    
+
                                 if ($img->save()){
                                     $prod_img = new Proj_imgs();
                                     $prod_img->prodId = $id;
                                     $prod_img->imgId  = $img->id;
-    
+
                                     if ($prod_img->save()){
                                         continue;
                                     }
@@ -445,7 +445,7 @@ class DashboardController extends AbstractController
 
             if(!file_exists('.'.IMG.$name)){
                 if ($_FILES['add_img']['type'] === 'image/png' || $_FILES['add_img']['type'] === 'image/jpeg' || $_FILES['add_img']['type'] === 'image/gif'){
-                    
+
                     if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.IMG.$name)){
                         $img = new Imgs();
                         $img->img = $name;
@@ -479,10 +479,10 @@ class DashboardController extends AbstractController
                         if (move_uploaded_file($_FILES['add_img']['tmp_name'],'.'.UPL.$name)){
                             $imgs = new Imgs();
                             $imgs->img = $name;
-    
+
                             if ($imgs->save()){
                                 $img->imgId = $imgs->id;
-    
+
                                 if ($img->save()){
                                     $this->redirect('/dashboard/details/'.$proj_id);
                                 }
@@ -492,7 +492,7 @@ class DashboardController extends AbstractController
                         $imgs = Imgs::getByUnique($name);
 
                         $img->imgId = $imgs->id;
-    
+
                         if ($img->save()){
                             $this->redirect('/dashboard/details/'.$proj_id);
                         }
@@ -567,7 +567,7 @@ class DashboardController extends AbstractController
                     }
                 }
             }
-            
+
             $this->_data['title'] = 'Baraa Zoroub - Login Page';
 
             $this->_view('header,wraperstart,footer');
