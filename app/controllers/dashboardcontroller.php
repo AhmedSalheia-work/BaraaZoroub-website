@@ -621,9 +621,9 @@ class DashboardController extends AbstractController
 			$this->redirect('/dashboard/login');
 		}
 
-		$this->_lang->load('index.header');
-		$this->_lang->load('index.default');
-		$this->_lang->load('index.footer');
+		$this->_lang->load('dash.header');
+		$this->_lang->load('dash.default');
+		$this->_lang->load('dash.footer');
 
 		$this->_data['social'] = Social_links::getAll();
 		$this->_data['page'] = ($_SESSION['lang'] === 'en')?'portfolio':'المعرض';
