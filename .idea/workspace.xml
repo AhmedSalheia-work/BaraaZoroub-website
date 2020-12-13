@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="009fe4b8-c0d3-4708-9f1f-08d8f8dd5b5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/languages/en/index/footer.lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/languages/en/index/footer.lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/dashboardcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/dashboardcontroller.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
