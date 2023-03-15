@@ -1,0 +1,7 @@
+.ftpquota
+/.well-known
+/.idea
+assets/uploads/*
+message.txt
+error_log
+.gitCommitMessage 
